@@ -3,65 +3,76 @@ $black: #000;
 
 // add the $colors map here (2 dimensional map)
 // prettier-ignore
-$colors (
-    #FCFCFD : ('type': 'gray' , 'level': '25'),
-    #F9FAFB : ('type': 'gray' , 'level': '50'),
-    #F2F4F7 : ('type': 'gray' , 'level': '100'),
-    #E4E7EC : ('type': 'gray' , 'level': '200'),
-    #D0D5DD : ('type': 'gray' , 'level': '300'),
-    #98A2B3 : ('type': 'gray' , 'level': '400'),
-    #667085 : ('type': 'gray' , 'level': '500'),
-    #475467 : ('type': 'gray' , 'level': '600'),
-    #344054 : ('type': 'gray' , 'level': '700'),
-    #182230 : ('type': 'gray' , 'level': '800'),
-    #101828 : ('type': 'gray' , 'level': '900'),
-    #0C111D : ('type': 'gray' , 'level': '950')
-    #FCFAFF : ('type': 'brand' , 'level': '25'),
-    #F9F5FF : ('type': 'brand' , 'level': '50'),
-    #F4EBFF : ('type': 'brand' , 'level': '100'),
-    #E9D7FE : ('type': 'brand' , 'level': '200'),
-    #D6BBFB : ('type': 'brand' , 'level': '300'),
-    #B692F6 : ('type': 'brand' , 'level': '400'),
-    #9E77ED : ('type': 'brand' , 'level': '500'),
-    #7F56D9 : ('type': 'brand' , 'level': '600'),
-    #6941C6 : ('type': 'brand' , 'level': '700'),
-    #53389E : ('type': 'brand' , 'level': '800'),
-    #42307D : ('type': 'brand' , 'level': '900'),
-    #2C1C5F : ('type': 'brand' , 'level': '950'),
-    #FFFBFA : ('type': 'error' , 'level': '25'),
-    #FEF3F2 : ('type': 'error' , 'level': '50'),
-    #FEE4E2 : ('type': 'error' , 'level': '100'),
-    #FECDCA : ('type': 'error' , 'level': '200'),
-    #FDA29B : ('type': 'error' , 'level': '300'),
-    #F97066 : ('type': 'error' , 'level': '400'),
-    #F04438 : ('type': 'error' , 'level': '500'),
-    #D92D20 : ('type': 'error' , 'level': '600'),
-    #B42318 : ('type': 'error' , 'level': '700'),
-    #912018 : ('type': 'error' , 'level': '800'),
-    #7A271A : ('type': 'error' , 'level': '900'),
-    #55160C : ('type': 'error' , 'level': '950'),
-    #FFFCF5 : ('type': 'warning' , 'level': '25'),
-    #FFFAEB : ('type': 'warning' , 'level': '50'),
-    #FEF0C7 : ('type': 'warning' , 'level': '100'),
-    #FEDF89 : ('type': 'warning' , 'level': '200'),
-    #FEC84B : ('type': 'warning' , 'level': '300'),
-    #FDB022 : ('type': 'warning' , 'level': '400'),
-    #F79009 : ('type': 'warning' , 'level': '500'),
-    #DC6803 : ('type': 'warning' , 'level': '600'),
-    #B54708 : ('type': 'warning' , 'level': '700'),
-    #93370D : ('type': 'warning' , 'level': '800'),
-    #7A2E0E : ('type': 'warning' , 'level': '900'),
-    #4E1D09 : ('type': 'warning' , 'level': '950'),
-    #F6FEF9 : ('type': 'success' , 'level': '25'),
-    #ECFDF3 : ('type': 'success' , 'level': '50'),
-    #DCFAE6 : ('type': 'success' , 'level': '100'),
-    #ABEFC6 : ('type': 'success' , 'level': '200'),
-    #75E0A7 : ('type': 'success' , 'level': '300'),
-    #47CD89 : ('type': 'success' , 'level': '400'),
-    #17B26A : ('type': 'success' , 'level': '500'),
-    #079455 : ('type': 'success' , 'level': '600'),
-    #067647 : ('type': 'success' , 'level': '700'),
-    #085D3A : ('type': 'success' , 'level': '800'),
-    #074D31 : ('type': 'success' , 'level': '900'),
-    #053321 : ('type': 'success' , 'level': '950'),
-)
+$colors: (
+    'gray' : (
+        '25': #FCFCFD
+        '50': #F9FAFB
+        '100': #F2F4F7
+        '200': #E4E7EC 
+        '300': #D0D5DD 
+        '400': #98A2B3 
+        '500': #667085 
+        '600': #475467 
+        '700': #344054 
+        '800': #182230 
+        '900': #101828
+        '950': #0C111D   
+    ),
+    'brand' : (
+        '25': #FCFAFF
+        '50': #F9F5FF
+        '100': #F4EBFF
+        '200': #E9D7FE
+        '300': #D6BBFB
+        '400': #B692F6
+        '500': #9E77ED
+        '600': #7F56D9
+        '700': #6941C6
+        '800': #53389E
+        '900': #42307D
+        '950': #2C1C5F
+    ),
+    'error': (
+        '25': #FFFBFA
+        '50': #FEF3F2 
+        '100': #FEE4E2 
+        '200': #FECDCA 
+        '300': #FDA29B 
+        '400': #F97066 
+        '500': #F04438 
+        '600': #D92D20 
+        '700': #B42318 
+        '800': #912018 
+        '900': #7A271A 
+        '950': #55160C 
+    ),
+    'warning': (
+        '25': #FFFCF5 
+        '50': #FFFAEB
+        '100': #FEF0C7 
+        '200': #FEDF89 
+        '300': #FEC84B 
+        '400': #FDB022 
+        '500': #F79009 
+        '600': #DC6803 
+        '700': #B54708 
+        '800': #93370D 
+        '900': #7A2E0E 
+        '950': #4E1D09 
+    ),
+    'success': (
+        '25': #F6FEF9 
+        '50':  #ECFDF3 
+        '100': #DCFAE6 
+        '200': #ABEFC6 
+        '300': #75E0A7 
+        '400': #47CD89 
+        '500': #17B26A 
+        '600': #079455 
+        '700': #067647 
+        '800': #085D3A 
+        '900': #074D31 
+        '950': #053321 
+    ),
+
+);
